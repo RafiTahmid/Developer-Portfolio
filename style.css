@@ -5,9 +5,13 @@ body{
 }
 
 h1{
-    font-size: 50px;
+    font-size: 55px;
 }
-span{
+
+h2{
+    font-size: 40px;
+}
+.coral-color{
     color: coral;
 }
 
@@ -47,4 +51,30 @@ span{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experience_item{
+    width: 25%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 2%;
+    box-shadow: 30px 20px 30px grey;
+}
+
+.experience_area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#full_stack_web_developer{
+    border-left: 6px solid tomato;
+}
+
+#baby_web_developer{
+    border-left: 6px solid blue;
+}
+
+footer p{
+    text-align: center;
 }
